@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>add</title>
+
+ </head>
+ <body bgcolor="lightblue">
+ 	<script type="text/javascript">
+function add() 
+		{
+ 		var a,b,c;
+ 		a=parseInt(form1.no1.value);
+ 		b=parseInt(form1.no2.value);
+ 		c=a+b 
+ 		alert("your addition is :"+c); 
+	 		} 
+function sub() 
+		{
+ 		var a,b,c;
+ 		a=parseInt(form1.no1.value);
+ 		b=parseInt(form1.no2.value);
+ 		c=a-b 
+ 		alert("your substraction is :"+c); 
+	 		} 
+function mult() 
+		{
+ 		var a,b,c;
+ 		a=parseInt(form1.no1.value);
+ 		b=parseInt(form1.no2.value);
+ 		c=a*b 
+ 		alert("your multiplication is :"+c); 
+	 		} 
+function div() 
+		{
+ 		var a,b,c;
+ 		a=parseInt(form1.no1.value);
+ 		b=parseInt(form1.no2.value);
+ 		c=a/b 
+ 		alert("your division is :"+c); 
+	 		}
+ function square_root(){
+        var a,b ;
+         a=parseInt(form1.no3.value);
+
+        b=Math.sqrt(a);
+     document.write("your enter number:"+b);
+}
+ 	</script><br><br><br><br><br><br><br>
+   
+ 	<table border="5px" align="center" bgcolor="lightgreen">
+ 		<tr>
+ 			<th>
+ 					 <h1 align="center" style="color: red;"> Calculator</h1>
+ 			</th>
+ 		</tr>
+ 		<tr>
+ 			<td> 
+ 	<form name="form1">
+ 		<h1>Enter your first number<input type="text" name="no1" ></h1>
+ 		<h1>Enter your second number<input type="text" name="no2" ></h1>
+ 	    <input type="submit" name="b1" value=addition onclick ="add()">
+         <input type="submit" name="b1" value=substraction onclick ="sub()">
+ 		 <input type="submit" name="b1" value=multiplication onclick ="mult()"> 
+   		
+ 		   <input type="submit" name="b1" value=division onclick ="div()"><br><br> 
+ 		 
+
+
+ 		     </td>
+ 		 </tr>
+ 		 <tr>
+ 		 	<td>
+ 		 		<h1> square root problems<input type="text" name="no3" > 
+ 		 		 </h1>  <input type="submit" name="b1" value=square_root onclick ="square_root()"><br><br>
+ 		 	</td>
+ 		 </tr>
+ 		</table>
+ 	</form>
+ </body>
+ </html
